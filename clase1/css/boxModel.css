@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,600&display=swap');
+
+body{
+    background-color: #e8e8e8;
+    color: #444;
+    font-family: Nunito;
+    font-size: 20px;
+
+    width: 666px;
+    margin: auto; /* centrar una caja */
+}
+
+h1{
+    background-color: #f3c2b4;
+    /*border-color: aqua;
+    border-style: dotted;
+    border-width: 10px;*/
+    border-left: solid #e07257 20px;
+    padding-left: 25px;
+}
+
+p{
+    background-color: #fff;
+    /* padding es la separación hacia DENTRO de la caja */
+    padding: 25px;
+
+    /* margin es la separación hacia FUERA de la caja */
+    margin-top: 40px;
+    color: #744835;
+}
