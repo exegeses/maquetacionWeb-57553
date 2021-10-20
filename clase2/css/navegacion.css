@@ -1,0 +1,17 @@
+#menu1 a{
+    background-color: #3B7A5D;
+    display: inline-block;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+#menu2 ul li{
+    background-color: #3B7A5D;
+   /* float: left; */
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+}
