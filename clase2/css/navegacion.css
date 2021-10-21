@@ -1,17 +1,26 @@
 #menu1 a{
-    background-color: #3B7A5D;
+    background-color: #54a680;
     display: inline-block;
     height: 60px;
     width: 120px;
     text-align: center;
     line-height: 60px;
+    text-decoration: none; /* quita subrayado */
+    color: #DAF9E6;
+}
+#menu1 a:hover{
+    background-color: #70c99b;
 }
 
 
 #menu2 ul li{
-    background-color: #3B7A5D;
+    background-color: #54a680;
    /* float: left; */
     display: inline-block;
     height: 30px;
     width: 120px;
+}
+#menu2 ul li a{
+    text-decoration: none;
+    color: #DAF9E6;
 }
