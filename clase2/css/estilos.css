@@ -17,14 +17,42 @@ header{
 nav{
     height: 60px;
     background-color: #E75B43;
+    text-align: center; /* centrar contenido de caja */
 }
+    /* menu */
+    nav a{
+        text-decoration: none; /*quitar subrayado*/
+        color: #f8f5bb;
+
+        width: 120px;
+        height: 60px;
+        line-height: 60px; /* centrar vertical */
+        /* padding: 18px; */
+        display: inline-block;
+
+        transition: 500ms;/*0.5s*/
+        background-color: #E75B43;
+    }
+    nav a:hover{
+        background-color: #f46951;
+    }
 
 main{
     height: 600px; /**/
     width: 900px;
     margin: auto; /*centrar una caja*/
 }
+    main article{
+        display: inline-block;
+        margin-left: 35px;
+    }
+
+
 footer{
     height: 120px;
     background-color: #232323;
+    color: #fefcce;
+    text-align: center;
+    line-height: 120px;
+    font-size: .8em;
 }
