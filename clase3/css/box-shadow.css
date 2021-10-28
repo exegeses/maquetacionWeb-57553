@@ -1,0 +1,17 @@
+#caja1, #caja2, #caja3{
+    width: 500px;
+    height: 180px;
+    background-color: #e8e8e8;
+    margin: 70px;
+}
+#caja1{
+    /* box-shadow:  x   y   color  ;*/
+    box-shadow: 20px 20px #23a;
+}
+#caja2{
+    /* box-shadow:  x   y  blur  color  ;*/
+    box-shadow: 20px 20px 10px #23a;
+}
+#caja3{
+    box-shadow: 0px 8px 6px #ccc;
+}
