@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+body{
+    font-family: Raleway;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap;*/
+}
+
+#brand{
+    width: 87px;
+    height: 60px;
+    margin-left: 30px;
+}
+    #brand img{
+        width: inherit;
+    }
+
+    #top{
+        margin-left: 30px;
+        background-color: #fbf8c7;
+        width: 100%;
+    }
+    #primero{
+        background-color: #d1d1d1;
+    }
+    #segundo{
+        background-color: #a7a7a7;
+    }
